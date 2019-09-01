@@ -155,7 +155,7 @@
         var jsList = settings.jsList;
 
         if (!false) {
-            var bundledScript = settings.debug ? 'src/project.dev.js' : 'src/project.739da.js';
+            var bundledScript = settings.debug ? 'src/project.dev.js' : 'src/project.f706c.js';
             if (jsList) {
                 jsList = jsList.map(function (x) {
                     return 'src/' + x;
@@ -212,7 +212,7 @@
     }
 
     if (window.jsb) {
-        require('src/settings.5c394.js');
+        require('src/settings.d89dd.js');
         require('src/jsb_polyfill.js');
         boot();
         return;
