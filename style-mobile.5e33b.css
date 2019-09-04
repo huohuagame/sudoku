@@ -87,31 +87,31 @@ p.footer {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #171717 url(./splash.0b43a.png) repeat center;
+  background: #171717 url(./splash.c3e52.png) repeat center;
   background-size: 100%;
 }
 
 .progress-bar {
-    background-color: #888;
+    background-color: #666;
     position: absolute;
     left: 25%;
     top: 80%;
-    height: 5px;
-    padding: 2px;
+    height: 1px;
+    padding: 1px;
     width: 50%;
     /*margin: 0 -175px;         */
-    border-radius: 3px;
-    box-shadow: 0 1px 5px #888 inset, 0 1px 0 #888;     
+    border-radius: 1px;
+    box-shadow: 0 1px 3px #666 inset, 0 1px 0 #666;     
     /*display: none;*/       
 }
 
 .progress-bar span {
     display: block;
     height: 100%;
-    border-radius: 3px;
+    border-radius: 1px;
     box-shadow: 0 1px 0 rgba(255, 255, 255, .5) inset;
     transition: width .4s ease-in-out; 
-    background-color: #fff;    
+    background-color: #a56944;    
 }
 
 .stripes span {
