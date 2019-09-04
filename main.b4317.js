@@ -212,7 +212,7 @@
     }
 
     if (window.jsb) {
-        require('src/settings.16345.js');
+        require('src/settings.756e9.js');
         require('src/jsb_polyfill.js');
         boot();
         return;
